@@ -1,0 +1,361 @@
+
+body, div, p, img, span, ul, li, a, h1, h2, h3, h4, h5, h6, section, header, footer {
+  margin: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,"Microsoft YaHei";
+}
+
+.skin {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  background: url("../img/cover.jpg") no-repeat 0 center;
+  background-size: cover;
+  z-index: -10;
+}
+
+.wrapper {
+  width: 1200px;
+  min-height: 640px;
+  position: relative;
+  margin: 0 auto;
+  background-color: rgba(100, 100, 100, 0.2);
+}
+
+.game-panel {
+  height: 480px;
+  width: 1200px;
+}
+
+.my-panel {
+  width: 1200px;
+  position: relative;
+}
+
+.add {
+  width: 10px;
+  height: 10px;
+}
+
+.center-users {
+  height: 160px;
+  padding: 80px 0;
+  position: relative;
+}
+
+.user {
+  height: 140px;
+  width: 180px;
+  padding: 20px 0 0 20px;
+  border-radius: 5px;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+.active {
+  background-color: rgba(220,220, 220, 0.5);
+}
+
+.me {
+  position: absolute;
+  right: 0;
+}
+
+.user-top1, .user-top2, .user-top3{
+  float: left;
+  position: relative;
+}
+
+.user-top1 {
+  left: 200px;
+}
+
+.user-top2 {
+  left: 300px;
+}
+
+.user-top3 {
+  left: 400px;
+}
+
+.user-center1, .user-center2 {
+  float: left;
+}
+
+.user-center2 {
+  position: absolute;
+  right: 0;
+}
+
+.user-avatar {
+  height: 100px;
+  width: 100px;
+  float: left;
+  border-radius: 5px;
+}
+
+.left-card-number {
+  height: 100px;
+  width: 80px;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 35px;
+  float: left;
+  text-shadow: 1px 1px 3px #333333;
+}
+
+.left-one{
+  color: red;
+  text-shadow: 1px 1px 3px #550000;
+}
+
+.user-name{
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  min-width: 100px;
+  max-width: 180px;
+  text-align: center;
+  float: left;
+  color: #bbbbbb;
+}
+
+.card-panel {
+  width: 800px;
+  padding: 15px 10px;
+  position: relative;
+  left: 170px;
+  float: left;
+}
+
+.my-cards {
+  height: 130px;
+}
+
+.out-card-panel{
+  width: 600px;
+  height: 110px;
+  padding: 20px;
+  position: absolute;
+  top: 250px;
+  left: 280px;
+  border-radius: 5px;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+.direction-top {
+  width: 640px;
+  height: 16px;
+  position: absolute;
+  top: 233px;
+  left: 280px;
+  opacity: 0.8;
+}
+
+.direction-bottom {
+  width: 640px;
+  height: 16px;
+  position: absolute;
+  top: 400px;
+  left: 280px;
+  opacity: 0.8;
+}
+
+.direction-right {
+  background-image: url("../img/arrow_right.png");
+}
+
+.direction-left {
+  background-image: url("../img/arrow_left.png");
+}
+
+.option-panel {
+  width: 600px;
+  height: 80px;
+  position: absolute;
+  left: 350px;
+  top: 430px;
+}
+
+.option-do-panel {
+  color: white;
+
+
+  .option-button-sure{
+    background-color: #5cb85c;
+    border-radius: 5px;
+    padding: 8px 20px;
+    float: left;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+  }
+  .option-button-sure:hover{
+    background-color: #449d44;
+  }
+  .option-button-cancel {
+    background-color: #f0ad4e;
+    border-radius: 5px;
+    padding: 8px 20px;
+    float: left;
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+  }
+  .option-button-cancel:hover{
+    background-color: #ec971f;
+  }
+  .option-button-giveup{
+    background-color: #d9534f;
+    border-radius: 5px;
+    padding: 8px 20px;
+    float: left;
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+  }
+  .option-button-giveup:hover {
+    background-color: #c9302c;
+  }
+}
+
+.option-color-panel{
+
+}
+
+.option-color-item-red {
+  width: 100px;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  background-color: red;
+  position: relative;
+  left: 50px;
+  border: 3px solid red;
+  cursor: pointer;
+}
+.option-color-item-red:hover {
+  border: 3px solid white;
+}
+
+.option-color-item-green {
+  width: 100px;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  background-color: green;
+  position: relative;
+  left: 100px;
+  border: 3px solid green;
+  cursor: pointer;
+}
+.option-color-item-green:hover {
+  border: 3px solid white;
+}
+
+.option-color-item-yellow {
+  width: 100px;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  background-color: yellow;
+  position: relative;
+  left: 150px;
+  border: 3px solid yellow;
+  cursor: pointer;
+}
+.option-color-item-yellow:hover {
+  border: 3px solid white;
+}
+
+.option-color-item-blue {
+  width: 100px;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  background-color: blue;
+  position: relative;
+  left: 200px;
+  border: 3px solid blue;
+  cursor: pointer;
+}
+.option-color-item-blue:hover {
+  border-color: white;
+}
+
+.restart {
+  width: 85px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 900;
+  color: white;
+  background-color: #805483;
+  position: fixed;
+  text-align: center;
+  line-height: 60px;
+  top: 0;
+  right: 0;
+  box-shadow: 1px 3px 3px #553050;
+  cursor: pointer;
+}
+
+.restart:hover{
+  box-shadow: 1px 3px 3px #000;
+}
+
+.history-panel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 195px;
+  height: 230px;
+  overflow-y: scroll;
+  background-color: rgba(30, 30, 30, 0.5);
+  color: #bbbbbb;
+  font-size: 13px;
+  line-height: 17px;
+  border-radius: 5px;
+
+  span {
+    color: #888888;
+  }
+}
+
+.score-panel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 175px;
+  height: 210px;
+  padding: 10px;
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 5px;
+  color: #aaa;
+
+  h4 {
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+  }
+
+  .order-score-out {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.clear {
+  clear: both;
+}

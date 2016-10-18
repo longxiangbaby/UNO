@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNO</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/card.css">
+</head>
+<body>
+    <div class="skin"></div>
+    <div class="wrapper">
+        <div class="game-panel">
+            <!-- 顶部user -->
+            <div class="top-users">
+                <div id="robot-4" class="user user-top1">
+                    <img src="" class="user-avatar">
+                    <p class="left-card-number ">0</p>
+                    <p class="user-name"></p>
+                    <div class="clear"></div>
+                </div>
+
+                <div id="robot-3" class="user user-top2">
+                    <img src="" class="user-avatar">
+                    <p class="left-card-number ">0</p>
+                    <p class="user-name"></p>
+                    <div class="clear"></div>
+                </div>
+
+                <div id="robot-2" class="user user-top3">
+                    <img src="" class="user-avatar">
+                    <p class="left-card-number ">0</p>
+                    <p class="user-name"></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <!--中部user-->
+            <div class="center-users">
+                <div id="robot-5" class="user user-center1">
+                    <img src="" class="user-avatar">
+                    <p class="left-card-number ">0</p>
+                    <p class="user-name"></p>
+                    <div class="clear"></div>
+                </div>
+                <div id="robot-1" class="user user-center2">
+                    <img src="" class="user-avatar">
+                    <p class="left-card-number ">0</p>
+                    <p class="user-name"></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="out-card-panel">
+            </div>
+
+            <div class="direction-top direction-left">
+            </div>
+
+            <div class="direction-bottom direction-right">
+            </div>
+
+            <div class="option-panel">
+                <div class="option-do-panel" style="display: none" >
+                    <div class="option-button-sure">
+                        确定
+                    </div>
+                    <div class="option-button-cancel">
+                        取消
+                    </div>
+                    <div class="option-button-giveup">
+                        放弃出牌
+                    </div>
+                </div>
+                <div class="option-color-panel" style="display: none">
+                    <!-- 不能改变顺序，也不能加东西，因为颜色跟位置相关-->
+                    <div class="option-color option-color-item-red"></div>
+                    <div class="option-color option-color-item-green"></div>
+                    <div class="option-color option-color-item-yellow"></div>
+                    <div class="option-color option-color-item-blue"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-panel">
+            <div class="card-panel">
+                <div class="my-cards">
+
+                </div>
+            </div>
+            <div id="robot-0" class="user me">
+                <img src="" class="user-avatar">
+                <p class="left-card-number ">0</p>
+                <p class="user-name"></p>
+                <div class="clear"></div>
+            </div>
+            <div class="add"></div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="history-panel">
+
+        </div>
+        <div class="score-panel">
+            <h3>第 <span>0</span> 局</h3>
+            <h4>排名：</h4>
+            <p id="order-1">1.<span class="order-name"></span>&nbsp;&nbsp;&nbsp;<span class="order-score-out"><span class="order-score"></span>分</span></p>
+            <p id="order-2">2.<span class="order-name"></span>&nbsp;&nbsp;&nbsp;<span class="order-score-out"><span class="order-score"></span>分</span></p>
+            <p id="order-3">3.<span class="order-name"></span>&nbsp;&nbsp;&nbsp;<span class="order-score-out"><span class="order-score"></span>分</span></p>
+            <p id="order-4">4.<span class="order-name"></span>&nbsp;&nbsp;&nbsp;<span class="order-score-out"><span class="order-score"></span>分</span></p>
+            <p id="order-5">5.<span class="order-name"></span>&nbsp;&nbsp;&nbsp;<span class="order-score-out"><span class="order-score"></span>分</span></p>
+            <p id="order-6">6.<span class="order-name"></span>&nbsp;&nbsp;&nbsp;<span class="order-score-out"><span class="order-score"></span>分</span></p>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="restart">restart</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/card.js"></script>
+<script type="text/javascript" src="js/user.js"></script>
+<script type="text/javascript" src="js/robot.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

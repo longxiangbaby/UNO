@@ -1,0 +1,81 @@
+.card {
+  float: left;
+  height: 100px;
+  width: 66px;
+  border-radius: 5px;
+  border: 5px solid white;
+  background-color: white;
+  cursor: pointer; }
+
+.card-absolute {
+  position: absolute; }
+
+.card-choosed {
+  border-color: #111;
+  background-color: #111; }
+
+.card-can-send {
+  opacity: 1; }
+
+.card-can-not-send {
+  opacity: 0.4; }
+
+.card-can-send:hover {
+  border-color: #555;
+  background-color: #555; }
+
+.card-inner {
+  height: 80px;
+  width: 60px;
+  border-radius: 5px;
+  padding: 10px 3px; }
+
+.card-content-inner {
+  background-color: white;
+  height: 80px;
+  width: 60px;
+  border-radius: 50%; }
+
+.card-content {
+  height: 80px;
+  width: 60px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 43px;
+  font-weight: 900; }
+
+.card-all-color {
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 46px;
+  height: 66px;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.card-all-color-item {
+  float: left;
+  width: 23px;
+  height: 33px; }
+
+.red {
+  background-color: red;
+  color: red; }
+
+.blue {
+  background-color: blue;
+  color: blue; }
+
+.green {
+  background-color: green;
+  color: green; }
+
+.yellow {
+  background-color: yellow;
+  color: yellow; }
+
+.black {
+  background-color: black;
+  color: black; }
+
+/*# sourceMappingURL=card.css.map */
