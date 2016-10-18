@@ -259,6 +259,7 @@ var isCardCanSend = function(lastCard, card){
             card.canSend = true;
             return true;
         } else{
+            card.canSend = false;
             return false;
         }
     }

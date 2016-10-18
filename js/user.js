@@ -22,6 +22,9 @@ var createUser = function(){
         //TODO 取消其他player的激活状态 并显示自己为激活
         pageNotifier.notifyActive(user.index);
 
+        // 把所有卡设置为不能出
+        user.initCards();
+
         // 给所有能使用的卡加上 canSend = true属性，不能使用是false
         isCardsCanSend(lastCard, user.cards);
 
@@ -34,6 +37,12 @@ var createUser = function(){
         // 遍历所有的能出的牌，加上card-can-send属性，便于hover以及选择操作
         pageNotifier.notifyUserCardStateChange(user.cards);
 
+    };
+
+    user.initCards = function(){
+        for (var i = 0; i < user.cards.length; i ++){
+            user.cards[i].canSend = false;
+        }
     };
 
     user.chooseCard = function(index){
